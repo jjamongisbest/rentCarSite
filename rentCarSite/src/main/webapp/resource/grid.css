@@ -1,0 +1,57 @@
+/* 전체 페이지 스타일 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 헤더 스타일 */
+header {
+    background-color: #fff350;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ffbe1e;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 내비게이션 스타일 */
+nav {
+    background-color: #ffed7e;
+    border-top: 2px solid #ffbe1e;
+    border-bottom: 2px solid #ffbe1e;
+    padding: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav>li::lastchild{
+	color : brown;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #f7d358;
+}
