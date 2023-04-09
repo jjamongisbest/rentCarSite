@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffcc;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #444444;
+  border-collapse: collapse;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #f9d71c;
+  color: #444444;
+  border-bottom: 2px solid #dddddd;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #ffffcc;
+}

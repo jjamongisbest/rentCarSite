@@ -33,9 +33,9 @@
 				for (Vehicle vehicle : list) {
 				%>
 				<tr>
-					<td><%=vehicle.getCar_name() %></td>
-					<td><%=vehicle.getHour_price() %></td>
-					<td><%=vehicle.getSeat() %></td>
+					<td><a href="carview?carcode=<%=vehicle.getCarCode()%>"><%=vehicle.getCarName()%></a></td>
+					<td><%=vehicle.getHourPrice()%></td>
+					<td><%=vehicle.getSeat()%></td>
 				</tr>
 				<%
 				}

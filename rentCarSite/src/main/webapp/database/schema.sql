@@ -17,6 +17,8 @@ hour_price int(8) not null,
 seat int(2) not null
 );
 
+alter table car add column image_url varchar(1000); 
+
 create table board (
 `code` int(5) primary key,
 title varchar(100) not null,

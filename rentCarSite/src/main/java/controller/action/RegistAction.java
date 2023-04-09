@@ -30,7 +30,7 @@ public class RegistAction implements Action {
 		UserDAO userDao = UserDAO.getInstance();
 		userDao.createUser(userDto);
 
-		response.sendRedirect("check");
+		response.sendRedirect("/");
 	}
 
 }

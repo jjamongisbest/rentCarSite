@@ -1,8 +1,10 @@
 package controller;
 
+import controller.action.DeleteBoardAction;
 import controller.action.LoginAction;
 import controller.action.LogoutAction;
 import controller.action.RegistAction;
+import controller.action.WriteBoardAction;
 
 public class ActionFactory {
 	private ActionFactory() {
@@ -23,6 +25,10 @@ public class ActionFactory {
 			action = new LoginAction();
 		else if (command.equals("logout"))
 			action = new LogoutAction();
+		else if(command.equals("deleteboard"))
+			action = new DeleteBoardAction();
+		else if(command.equals("writeboard"))
+			action = new WriteBoardAction();
 
 		return action;
 	}

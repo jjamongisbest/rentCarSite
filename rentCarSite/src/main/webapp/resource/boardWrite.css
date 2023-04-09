@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* 노란색 계열 스타일 */
+body {
+  background-color: #ffffcc;
+}
+
+table {
+  background-color: #ffff99;
+}
+
+input[type=text], textarea {
+  background-color: #ffffe0;
+}
+
+input[type=button] {
+  background-color: #ffcc00;
+  color: #ffffff;
+}

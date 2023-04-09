@@ -27,12 +27,16 @@
 			<%
 			}
 			%>
-			<li><a href="carlist">렌트 차량 목록 확인</a></li>
+			<li><a href="boardlist">문의하기</a></li>
 			<li><a href="book">예약시스템</a></li>
 			<li><a href="/">홈으로</a></li>
-			<%if (session.getAttribute("log") != null) { %>
-			<li><a href="mypage"> <%=session.getAttribute("log") %></a> </li>
-			<%} %>
+			<%
+			if (session.getAttribute("log") != null) {
+			%>
+			<li><a href="mypage"> <%=session.getAttribute("log")%></a></li>
+			<%
+			}
+			%>
 		</ul>
 	</nav>
 

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 렌탈 자동차 목록 페이지 스타일 */
+body {
+  background-color: #FEFEDC;
+  color: #6D4C41;
+}
+
+h2 {
+  color: #F9A825;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2em auto;
+}
+
+th, td {
+  padding: 0.5em;
+  text-align: center;
+}
+
+th {
+  background-color: #F9A825;
+  color: #FEFEDC;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF8E1;
+}
+
+tr:hover {
+  background-color: #FFE082;
+}

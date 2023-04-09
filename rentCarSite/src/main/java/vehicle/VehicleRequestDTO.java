@@ -2,40 +2,40 @@ package vehicle;
 
 public class VehicleRequestDTO {
 
-	private int car_code;
-	private String car_name;
-	private int hour_price;
+	private int carCode;
+	private String carName;
+	private int hourPrice;
 	private int seat;
 	
 	public VehicleRequestDTO (int code, String name, int price, int seat) {
-		this.car_code = code;
-		this.car_name = name;
-		this.hour_price = price;
+		this.carCode = code;
+		this.carName = name;
+		this.hourPrice = price;
 		this.seat = seat;
 	}
 
-	public int getCar_code() {
-		return car_code;
+	public int getCarCode() {
+		return carCode;
 	}
 
-	public void setCar_code(int car_code) {
-		this.car_code = car_code;
+	public void setCarCode(int car_code) {
+		this.carCode = car_code;
 	}
 
-	public String getCar_name() {
-		return car_name;
+	public String getCarName() {
+		return carName;
 	}
 
-	public void setCar_name(String car_name) {
-		this.car_name = car_name;
+	public void setCarName(String car_name) {
+		this.carName = car_name;
 	}
 
-	public int getHour_price() {
-		return hour_price;
+	public int getHourPrice() {
+		return hourPrice;
 	}
 
-	public void setHour_price(int hour_price) {
-		this.hour_price = hour_price;
+	public void setHourPrice(int hour_price) {
+		this.hourPrice = hour_price;
 	}
 
 	public int getSeat() {

@@ -10,6 +10,7 @@ public class Vehicle {
 	private String car_name;
 	private int hour_price;
 	private int seat;
+	private String image;
 	
 	public Vehicle (int code, String name, int price, int seat) {
 		this.car_code = code;
@@ -19,27 +20,31 @@ public class Vehicle {
 	}
 	
 	public Vehicle(VehicleRequestDTO vr) {
-		this.car_code = vr.getCar_code();
-		this.car_name = vr.getCar_name();
-		this.hour_price = vr.getHour_price();
+		this.car_code = vr.getCarCode();
+		this.car_name = vr.getCarName();
+		this.hour_price = vr.getHourPrice();
 		this.seat = vr.getSeat();
 	}
 	
 	
-	public int getCar_code() {
-		return car_code;
+	public int getCarCode() {
+		return this.car_code;
 	}
 
-	public String getCar_name() {
-		return car_name;
+	public String getCarName() {
+		return this.car_name;
 	}
 
-	public int getHour_price() {
-		return hour_price;
+	public int getHourPrice() {
+		return this.hour_price;
 	}
 
 	public int getSeat() {
-		return seat;
+		return this.seat;
+	}
+	
+	public String getImage() {
+		return this.image;
 	}
 
 	
